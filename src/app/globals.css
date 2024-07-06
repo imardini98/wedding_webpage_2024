@@ -3,31 +3,173 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --glass-blur: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+.roller {
+  height: 2.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: -2rem;
+  }
+
+  50% {
+    top: -4rem;
+  }
+
+  72.5% {
+    top: -8rem;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#title-container {
+  cursor:pointer;
+  transition: margin-right 2s ease-in-out;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+#title-container:hover {
+  margin-right: 70px;
+  .to_slide span {
+    margin-right: 5px;
+  }
+
+  #ese {
+   opacity: 0;
+  }
+  #to_hide {
+    color: white;
+  }
+}
+
+.hero-title {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  padding:20px;
+}
+
+.to_slide #chosen {
+  margin-right:-249px;
+  transition: margin-right 2s ease-in-out;
+}
+#ese {
+  margin-right:-35px;
+  transition: opacity  2s ease-in-out;
+}
+#to_hide {
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+
+  #title-container:hover {
+    margin-right:100px;
+    .to_slide span {
+      margin-right: 5px;
+    }
+  
+    #ese {
+     opacity: 0;
+    }
+  }
+  
+  .hero-title {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    padding:15px;
+  }
+  
+  .to_slide span {
+    margin-right:-187px;
+    transition: margin-right 2s ease-in-out;
+  }
+  #ese {
+    margin-right:-35px;
+    transition: opacity  2s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  #title-container:hover {
+    margin-right:30px;
+    .to_slide span {
+      margin-right: 5px;
+    }
+  
+    #ese {
+     opacity: 0;
+    }
+  }
+  
+  .hero-title {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    padding:10px;
+    font-size:2.5rem !important;
+  }
+  
+  .to_slide span {
+    margin-right:-106px;
+    transition: margin-right 2s ease-in-out;
+  }
+  #ese {
+    margin-right:-20px;
+    transition: opacity  2s ease-in-out;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .roller {
+    height: 2.6rem;
+    line-height: 2.125rem;
+  }
+
+  .roller #rolltext {
+    animation: slide-mob 10s infinite;
+  }
+
+  @keyframes slide-mob {
+    0% {
+      top: 0;
+    }
+
+    25% {
+      top: -2.125rem;
+    }
+
+    50% {
+      top: -4.25rem;
+    }
+
+    72.5% {
+      top: -6.375rem;
+    }
   }
 }
