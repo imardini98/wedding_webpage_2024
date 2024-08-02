@@ -15,7 +15,7 @@ export function OurHistory() {
      endScroll: 3000,
    }); */
   return (
-    <section ref={history.ref} className="py-16 mt-[500px]">
+    <section className="py-16 mt-[500px]">
       <div className="max-w-6xl mx-auto px-4">
         <h2
           className={cn([

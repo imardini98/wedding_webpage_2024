@@ -2,15 +2,18 @@
 import { cn } from "@/lib/utils";
 import { WindSong } from "next/font/google";
 import { Parallax, useParallax } from "react-scroll-parallax";
-
+import resolveConfig from 'tailwindcss/resolveConfig'
+import tailwindConfig from "@/../tailwind.config";
+import useTailwindBreakpoints from "@/lib/breakpoints";
+const { theme: { screens } } = resolveConfig(tailwindConfig);
 const windsong = WindSong({
     subsets: ["latin"],
     weight: "500",
 });
 export function HeroParallax() {
-
+    const { isTabletOrMobile, isXs, isSm } = useTailwindBreakpoints();
     const hero = useParallax({
-        speed: -100
+        speed: -200
     });
     const ese = useParallax({
         opacity: [1, 0],
@@ -20,12 +23,12 @@ export function HeroParallax() {
     });
 
     const to_slide = useParallax({
-        translateX: ["124.5px", "0px"],
+        translateX: isXs ? ["-60px", "-60px"] : ["124.5px", "0px"],
         startScroll: 0,
         endScroll: 500
     })
     const to_slide_revert = useParallax({
-        translateX: ["-124.5px", "0px"],
+        translateX: isSm ? ["-124.5px", "-60px"] : isXs ? ["-.5px", "-65px"] : ["-124.5px", "0px"],
         startScroll: 0,
         endScroll: 500
     })
