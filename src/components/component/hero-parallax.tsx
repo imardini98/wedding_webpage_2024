@@ -5,6 +5,7 @@ import { Parallax, useParallax } from "react-scroll-parallax";
 import resolveConfig from 'tailwindcss/resolveConfig'
 import tailwindConfig from "@/../tailwind.config";
 import useTailwindBreakpoints from "@/lib/breakpoints";
+import { LegacyRef } from "react";
 const { theme: { screens } } = resolveConfig(tailwindConfig);
 const windsong = WindSong({
     subsets: ["latin"],
@@ -47,7 +48,7 @@ export function HeroParallax() {
                 <div id="title-container" className="text-center text-white">
                     <Parallax speed={-10}>
                         <h1
-                            ref={ese.ref}
+                            ref={ese.ref as LegacyRef<HTMLHeadingElement>}
                             id="ese"
                             className={cn([
                                 "hero-title",
@@ -58,7 +59,7 @@ export function HeroParallax() {
                             S
                         </h1>
                         <h1
-                            ref={to_slide.ref}
+                            ref={to_slide.ref as LegacyRef<HTMLHeadingElement>}
                             className={cn([
                                 "hero-title",
                                 "to_slide",
@@ -71,7 +72,7 @@ export function HeroParallax() {
                             </span>
                         </h1>
                         <h1
-                            ref={to_slide_revert.ref}
+                            ref={to_slide_revert.ref as LegacyRef<HTMLHeadingElement>}
                             className={cn([
                                 "hero-title",
                                 "lg:text-8xl sm:text-7xl text-5xl font-bold mb-4",
