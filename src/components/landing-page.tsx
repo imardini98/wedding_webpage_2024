@@ -10,7 +10,7 @@ export function LandingPage() {
 
   return (
     <Container>
-      <HeroParallax />
+      <Hero />
       {process.env.NODE_ENV == "development" && <>
         <OurHistory />
         <WeddingDetails />
