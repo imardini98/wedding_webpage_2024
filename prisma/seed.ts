@@ -1,4 +1,4 @@
-import prisma from './index';
+import prisma from './client';
 import xlsx from 'xlsx';
 import path from 'path';
 

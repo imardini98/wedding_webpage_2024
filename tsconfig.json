@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/component/hero-parallax.tsx"
+    "src/components/hero-parallax.tsx"
   ],
   "exclude": [
     "node_modules"

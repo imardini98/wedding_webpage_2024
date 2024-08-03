@@ -6,6 +6,6 @@ interface Props {
 
 export function Container({ children }: Props) {
     return <div className="flex flex-col">
-        { children }
+        {children}
     </div>
 };
