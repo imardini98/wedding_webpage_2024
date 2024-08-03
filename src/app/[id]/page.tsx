@@ -28,9 +28,12 @@ export default async function Page({ params }: { params: { id: string } }) {
                     <Image src="/vi_logo.png" alt="logo" width={100} height={100} />
                 </div>
                 <div className={cn(["card-body", windsong.className])}>
-                    <h2 className="card-title">{guest?.name}</h2>
-                    <p><span className="text-title">Seats:</span> {guest?.seats}</p>
-                    <p><span className="text-title">Code:</span> {guest?.guestCode}</p>
+                    <h2 className="card-title">{guest?.name ?? "Not found"}</h2>
+                    {guest && <>
+                        <p><span className="text-title">Seats:</span> {guest?.seats}</p>
+                        <p><span className="text-title">Code:</span> {guest?.guestCode}</p>
+                    </>}
+
                 </div>
             </div>
         </div>
