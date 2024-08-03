@@ -12,7 +12,7 @@ const windsong = Bona_Nova({
 async function getGuestInformation(id: string) {
     const guest = prisma.guest.findUnique({
         where: {
-            guestCode: String(id),
+            guestCode: String(id.toUpperCase()),
         },
     });
     return guest;
