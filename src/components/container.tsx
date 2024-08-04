@@ -5,7 +5,7 @@ interface Props {
 }
 
 export function Container({ children }: Props) {
-    return <div className="flex flex-col">
+    return <div className="flex flex-col app-container">
         {children}
     </div>
 };

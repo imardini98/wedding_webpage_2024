@@ -6,7 +6,7 @@ import Gallery from "./gallery";
 import { RSVPForm } from "./rsvp-form";
 import { HeroParallax } from "./hero-parallax";
 
-export function LandingPage() {
+export function LandingPage({ dictionary }: { dictionary: any }) {
 
   return (
     <Container>

@@ -14,8 +14,9 @@ export function OurHistory() {
      opacity: [0, 1],
      endScroll: 3000,
    }); */
+  console.log(Intl.DateTimeFormat().resolvedOptions().timeZone)
   return (
-    <section className="py-16 mt-[500px]">
+    <section className="py-16 ">
       <div className="max-w-6xl mx-auto px-4">
         <h2
           className={cn([

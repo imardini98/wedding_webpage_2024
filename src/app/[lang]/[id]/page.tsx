@@ -1,5 +1,5 @@
 import { Container } from "@/components/container";
-import prisma from "../../../prisma/client";
+import prisma from "../../../../prisma/client";
 import Image from "next/image";
 import { Bona_Nova, WindSong } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -37,6 +37,8 @@ export default async function Page({ params }: { params: { id: string } }) {
                 </div>
             </div>
         </div>
+
     )
+
 }
 
