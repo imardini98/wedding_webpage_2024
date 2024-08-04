@@ -1,5 +1,7 @@
+import Loader from "@/components/loader";
+
 const Loading = () => {
-    return <span className="loading loading-ring loading-lg"></span>
+    return <Loader />;
 };
 
 export default Loading;

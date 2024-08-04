@@ -34,6 +34,7 @@ export function middleware(request: NextRequest) {
             '/manifest.json',
             '/favicon.ico',
             '/vi_logo.png',
+            '/vi_gold_logo.png',
         ].includes(pathname)
     )
         return
