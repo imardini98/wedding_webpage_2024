@@ -9,14 +9,18 @@
 
 .custom-bg {
     background-color: #8C9DAD;
+    animation: fadeIn 1s;
+}
+
+.loading-container {
+    background-color: #8C9DAD;
+
 }
 
 .logo-loading {
     animation: rotate 2s infinite;
 }
-.loading-container {
-    
-}
+
 
 @keyframes rotate {
     0% {
@@ -25,5 +29,15 @@
 
     100% {
         transform: rotateY(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
