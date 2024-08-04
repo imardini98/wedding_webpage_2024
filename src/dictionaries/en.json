@@ -1,1 +1,96 @@
-{}
+{
+    "story": {
+        "title": "Our Story",
+        "timeline": [
+            {
+                "year": "2018",
+                "title": "First Date",
+                "description": "In 2018, we met at university. It wasn't until December that we had our first date, which was magical. We were by the river, watching the sunset together. We talked so much that we were surprised by the connection between us. It was an unforgettable moment that marked the beginning of our love story.",
+                "images": [
+                    {
+                        "src": "/story-images/primera-cita.JPG",
+                        "alt": "First date"
+                    }
+                ]
+            },
+            {
+                "year": "07/01/2019",
+                "title": "Engagement",
+                "description": "January 7, 2019 was a memorable day for us. It was when we decided to embark on a journey together, supporting each other in our goals and dreams, and committing to each other as a couple. Since then, we have felt that God has blessed our paths with love and happiness. The number 7, recognized as God's divine number, represents the fullness and heavenly guidance we have experienced since then.",
+                "images": [
+                    {
+                        "src": "/story-images/casa-vale.JPG",
+                        "alt": "Engagement"
+                    }
+                ]
+            },
+            {
+                "year": "2019-2020",
+                "title": "Graduation",
+                "description": "We have been together, supporting each other to achieve our goals. It has been a time of being there for each other, overcoming challenges, and celebrating achievements. Every step we have taken has brought us closer to our goals, and in every victory, no matter how small, we have felt deep pride. Our unity and dedication have strengthened us, showing that together, we can achieve any dream.",
+                "images": [
+                    {
+                        "src": "/story-images/grado-master.JPG",
+                        "alt": "Graduation Ivan"
+                    },
+                    {
+                        "src": "/story-images/grado-vale.JPG",
+                        "alt": "Graduation Vale"
+                    }
+                ]
+            },
+            {
+                "year": "11/2021",
+                "title": "Separation",
+                "description": "To achieve our dreams, we had to make sacrifices. Our biggest challenge was living apart for almost a year. It wasn't easy, but our love was stronger than the thousands of kilometers that separated us. True love is like that: it is strong and goes beyond the physical. God gave us the strength we needed, and our love grew as we counted down the days to be reunited. Even though we looked at the sky from different parts of the world, we smiled knowing that we were gazing at the same sky. That experience made us stronger and made us realize that true love can overcome anything.",
+                "images": [
+                    {
+                        "src": "/story-images/bogota.JPEG",
+                        "alt": "Separation"
+                    }
+                ]
+            },
+            {
+                "year": "10/2022",
+                "title": "Reunion",
+                "description": "'Retrouvailles' describes the emotional and joyful moment of reuniting with a loved one after a long period of separation. It is more than just a reunion; it is the culmination of waiting and longing, encapsulating the joy, relief, and deep connection felt when being together again with someone who has been intensely missed.",
+                "images": [
+                    {
+                        "src": "/story-images/reencuentro.JPG",
+                        "alt": "Reunion"
+                    }
+                ]
+            },
+            {
+                "year": "24/10/2022",
+                "title": "Marriage Proposal",
+                "description": "It was an unforgettable day. We said 'yes' in front of the Greek islands, while witnessing the most sublime sunrise of our lives. We accepted to spend our entire existence with the love of our life, to build our future together under God's guidance, and to remain united no matter the circumstances. We love each other so much and feel deeply blessed to have each other. It was a day filled with magic and meaning, a moment that marked a beautiful chapter in our story.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini2.JPG",
+                        "alt": "Wedding"
+                    }
+                ]
+            },
+            {
+                "year": "2023-2024",
+                "title": "What We Love Doing Together",
+                "description": "Living abroad has its challenges, but facing them together strengthens us. We are passionate adventurers who love to travel, and this journey has allowed us to grow and discover even more the love we share. We are ready to say the most important and special 'yes' of our lives, surrounded by you, our dear friends and family, and have you witness the true and genuine love that unites us. We deeply appreciate you being part of our story. We are excited to return to our country to celebrate and reunite with all of you. Each passing day brings us closer to this long-awaited and joyful moment.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini-1.JPG",
+                        "alt": "Travel"
+                    },
+                    {
+                        "src": "/story-images/venedig.JPG",
+                        "alt": "Travel"
+                    },
+                    {
+                        "src": "/story-images/zugspitze.JPG",
+                        "alt": "Travel"
+                    }
+                ]
+            }
+        ]
+    }
+}

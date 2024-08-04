@@ -8,9 +8,9 @@ export default async function Home({
 }) {
   const dictionary = await getDictionary(lang);
   return (
-    <>
-      <LandingPage dictionary={dictionary} />
-    </>
+
+    <LandingPage dictionary={dictionary} />
+
 
   );
 }

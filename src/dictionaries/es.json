@@ -1,1 +1,96 @@
-{}
+{
+    "story": {
+        "title": "Nuestra Historia",
+        "timeline": [
+            {
+                "year": "2018",
+                "title": "Primera Cita",
+                "description": "En el año 2018 nos conocimos en la universidad. Fue hasta entonces en diciembre nuestra primera cita, la cual fue mágica. Nos encontrabamos junto al río y vimos el atardecer juntos. Hablamos tanto que nos sorprendió la conexión que había entre nosotros. Fue un momento inolvidable que marcó el inicio de nuestra historia de amor.",
+                "images": [
+                    {
+                        "src": "/story-images/primera-cita.JPG",
+                        "alt": "First date"
+                    }
+                ]
+            },
+            {
+                "year": "07/01/2019",
+                "title": "Novios",
+                "description": "El 7 de enero de 20 fue un dia memorable para nosotros. Fue cuando decidimos emprender juntos un camino, apoyarnos mutuamente en nuestras metas y sueños, y comprometernos como pareja. Desde ese momento, sentimos que Dios bendijo nuestros caminos con amor y felicidad. El número 7, reconocido como el número divino de Dios, representa la plenitud y la guía celestial que hemos experimentado desde entonces",
+                "images": [
+                    {
+                        "src": "/story-images/casa-vale.JPG",
+                        "alt": "Engagement"
+                    }
+                ]
+            },
+            {
+                "year": "2019-2020",
+                "title": "Graduación",
+                "description": "Hemos estado juntos, apoyándonos mutuamente para cumplir nuestros objetivos. Ha sido un tiempo de estar presentes el uno para el otro, superando desafíos y celebrando logros. Cada paso que hemos dado nos ha acercado más a nuestras metas, y en cada victoria, por pequeña que fuera, hemos sentido un profundo orgullo. Nuestra unión y dedicación nos han fortalecido, demostrando que, juntos, podemos alcanzar cualquier sueño",
+                "images": [
+                    {
+                        "src": "/story-images/grado-master.JPG",
+                        "alt": "Graduation Ivan"
+                    },
+                    {
+                        "src": "/story-images/grado-vale.JPG",
+                        "alt": "Graduation Vale"
+                    }
+                ]
+            },
+            {
+                "year": "11/2021",
+                "title": "Separación",
+                "description": "Para lograr nuestros sueños, tuvimos que hacer sacrificios. Nuestro mayor desafío fue vivir casi un año separados. No fue fácil, pero nuestro amor fue mucho más fuerte que los miles de kilómetros que nos distanciaban. El verdadero amor es así: es fuerte y va más allá de lo físico. Dios nos dio la fortaleza que necesitábamos, y nuestro amor creció mientras contábamos cada día para reencontrarnos. Aunque mirábamos el cielo desde distintos lugares del mundo, sonreíamos al saber que contemplábamos el mismo . Esa experiencia nos hizo más fuertes y nos hizo darnos cuenta de que el verdadero amor todo lo puede.",
+                "images": [
+                    {
+                        "src": "/story-images/bogota.JPEG",
+                        "alt": "Separation"
+                    }
+                ]
+            },
+            {
+                "year": "10/2022",
+                "title": "Reencuentro",
+                "description": "'Retrouvailles' describe el emotivo y jubiloso momento de reencontrarse con un ser querido tras un largo período de separación. Es más que un simple reencuentro; es la culminación de la espera y la añoranza, encapsulando la alegría, el alivio y la profunda conexión que se siente al volver a estar junto con alguien a quien se ha extrañado intensamente",
+                "images": [
+                    {
+                        "src": "/story-images/reencuentro.JPG",
+                        "alt": "Reunion"
+                    }
+                ]
+            },
+            {
+                "year": "24/10/2022",
+                "title": "Propuesta de matrimonio",
+                "description": "Fue un día inolvidable. Dijimos 'sí' frente a las islas griegas, mientras contemplabamos el amanecer más sublime de nuestras vidas. Aceptamos pasar toda nuestra existencia al lado del amor de nuestra vida, construir nuestro futuro juntos bajo la guía de Dios, y permanecer unidos sin importar las circunstancias. Nos amamos tanto y nos sentimos profundamente bendecidos de tenernos el uno al otro. Fue un día lleno de magia y significado, un momento que marcó un capítulo hermoso en nuestra historia.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini2.JPG",
+                        "alt": "Wedding"
+                    }
+                ]
+            },
+            {
+                "year": "2023-2024",
+                "title": "Lo que amamos hacer juntos",
+                "description": "Vivir en el extranjero tiene sus desafíos, pero enfrentarlos juntos nos fortalece. Somos unos aventureros apasionados por viajar, y este viaje nos ha permitido crecer y descubrir aún más el amor que compartimos. Estamos listos para decir el 'sí' más importante y especial de nuestras vidas, rodeados de ustedes, nuestros queridos amigos y familiares, y que sean testigos del amor verdadero y genuino que nos une. Agradecemos profundamente que formen parte de nuestra historia. Estamos emocionados de regresar a nuestro país para celebrar y reencontrarnos con todos ustedes. Cada día que pasa nos acerca más a este momento tan esperado y lleno de alegría.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini-1.JPG",
+                        "alt": "Travel"
+                    },
+                    {
+                        "src": "/story-images/venedig.JPG",
+                        "alt": "Travel"
+                    },
+                    {
+                        "src": "/story-images/zugspitze.JPG",
+                        "alt": "Travel"
+                    }
+                ]
+            }
+        ]
+    }
+}

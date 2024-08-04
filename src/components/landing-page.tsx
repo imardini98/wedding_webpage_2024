@@ -11,8 +11,9 @@ export function LandingPage({ dictionary }: { dictionary: any }) {
   return (
     <Container>
       <Hero />
+
+      <OurHistory dictionary={dictionary.story} />
       {process.env.NODE_ENV == "development" && <>
-        <OurHistory />
         <WeddingDetails />
         <Gallery />
         <RSVPForm />
