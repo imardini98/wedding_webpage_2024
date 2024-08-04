@@ -7,13 +7,7 @@
   overflow-y: scroll;
 }
 
-body {
-  background-image: url("/background.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}
+
 
 
 .hero-container {
@@ -214,6 +208,33 @@ body {
   animation: fadeIn 1s;
 }
 
+@keyframes show {
+  0% {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.story-title {
+  color: #c29e65 !important
+}
+
+
+.show-timeline-item {
+  view-timeline-name: --item;
+  view-timeline-axis: block;
+
+  animation-timeline: --item;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
 
 @keyframes rotate {
   0% {

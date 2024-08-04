@@ -1,1 +1,96 @@
-{}
+{
+    "story": {
+        "title": "Unsere Geschichte",
+        "timeline": [
+            {
+                "year": "2018",
+                "title": "Erstes Date",
+                "description": "Im Jahr 2018 haben wir uns an der Universität kennengelernt. Unser erstes Date fand im Dezember statt und war magisch. Wir saßen am Fluss und sahen gemeinsam den Sonnenuntergang. Wir haben so viel geredet, dass wir überrascht waren, wie stark die Verbindung zwischen uns war. Es war ein unvergesslicher Moment, der den Beginn unserer Liebesgeschichte markierte.",
+                "images": [
+                    {
+                        "src": "/story-images/primera-cita.JPG",
+                        "alt": "Erstes Date"
+                    }
+                ]
+            },
+            {
+                "year": "07/01/2019",
+                "title": "Verlobung",
+                "description": "Der 7. Januar 2019 war ein denkwürdiger Tag für uns. An diesem Tag haben wir beschlossen, gemeinsam einen Weg zu gehen, uns gegenseitig in unseren Zielen und Träumen zu unterstützen und uns als Paar zu verpflichten. Seitdem haben wir das Gefühl, dass Gott unsere Wege mit Liebe und Glück gesegnet hat. Die Zahl 7, die als göttliche Zahl Gottes gilt, repräsentiert die Fülle und himmlische Führung, die wir seitdem erlebt haben.",
+                "images": [
+                    {
+                        "src": "/story-images/casa-vale.JPG",
+                        "alt": "Verlobung"
+                    }
+                ]
+            },
+            {
+                "year": "2019-2020",
+                "title": "Abschluss",
+                "description": "Wir waren zusammen und haben uns gegenseitig unterstützt, um unsere Ziele zu erreichen. Es war eine Zeit, in der wir füreinander da waren, Herausforderungen gemeistert und Erfolge gefeiert haben. Jeder Schritt, den wir gemacht haben, hat uns unseren Zielen näher gebracht, und bei jedem Sieg, so klein er auch war, haben wir einen tiefen Stolz empfunden. Unsere Einheit und Hingabe haben uns gestärkt und gezeigt, dass wir gemeinsam jeden Traum erreichen können.",
+                "images": [
+                    {
+                        "src": "/story-images/grado-master.JPG",
+                        "alt": "Abschluss Ivan"
+                    },
+                    {
+                        "src": "/story-images/grado-vale.JPG",
+                        "alt": "Abschluss Vale"
+                    }
+                ]
+            },
+            {
+                "year": "11/2021",
+                "title": "Trennung",
+                "description": "Um unsere Träume zu verwirklichen, mussten wir Opfer bringen. Unsere größte Herausforderung bestand darin, fast ein Jahr getrennt zu leben. Es war nicht einfach, aber unsere Liebe war stärker als die tausenden Kilometer, die uns trennten. Wahre Liebe ist so: stark und über das Physische hinaus. Gott hat uns die Stärke gegeben, die wir brauchten, und unsere Liebe ist gewachsen, während wir jeden Tag gezählt haben, um uns wiederzusehen. Auch wenn wir den Himmel aus verschiedenen Teilen der Welt betrachtet haben, haben wir gelächelt, weil wir wussten, dass wir dasselbe betrachten. Diese Erfahrung hat uns stärker gemacht und uns gezeigt, dass wahre Liebe alles kann.",
+                "images": [
+                    {
+                        "src": "/story-images/bogota.JPEG",
+                        "alt": "Trennung"
+                    }
+                ]
+            },
+            {
+                "year": "10/2022",
+                "title": "Wiedersehen",
+                "description": "'Retrouvailles' beschreibt den emotionalen und freudigen Moment des Wiedersehens mit einem geliebten Menschen nach einer langen Trennungszeit. Es ist mehr als nur ein einfaches Wiedersehen; es ist der Höhepunkt des Wartens und der Sehnsucht und verkörpert die Freude, Erleichterung und tiefe Verbindung, die man empfindet, wenn man wieder mit jemandem zusammen ist, den man intensiv vermisst hat.",
+                "images": [
+                    {
+                        "src": "/story-images/reencuentro.JPG",
+                        "alt": "Wiedersehen"
+                    }
+                ]
+            },
+            {
+                "year": "24/10/2022",
+                "title": "Heiratsantrag",
+                "description": "Es war ein unvergesslicher Tag. Wir sagten 'Ja' vor den griechischen Inseln, während wir den schönsten Sonnenaufgang unseres Lebens betrachteten. Wir haben akzeptiert, unsere gesamte Existenz an der Seite unserer großen Liebe zu verbringen, unsere Zukunft gemeinsam unter Gottes Führung aufzubauen und zusammenzuhalten, egal was passiert. Wir lieben uns so sehr und fühlen uns zutiefst gesegnet, einander zu haben. Es war ein Tag voller Magie und Bedeutung, ein Moment, der ein wunderschönes Kapitel in unserer Geschichte markierte.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini2.JPG",
+                        "alt": "Hochzeit"
+                    }
+                ]
+            },
+            {
+                "year": "2023-2024",
+                "title": "Was wir gerne zusammen machen",
+                "description": "Das Leben im Ausland hat seine Herausforderungen, aber sie gemeinsam zu meistern, stärkt uns. Wir sind leidenschaftliche Abenteurer und lieben es zu reisen. Diese Reise hat es uns ermöglicht, zu wachsen und die Liebe, die wir teilen, noch mehr zu entdecken. Wir sind bereit, das wichtigste und besondere 'Ja' unseres Lebens zu sagen, umgeben von Ihnen, unseren lieben Freunden und Familienmitgliedern, und Zeugen der wahren und echten Liebe zu sein, die uns verbindet. Wir sind Ihnen zutiefst dankbar, dass Sie Teil unserer Geschichte sind. Wir freuen uns darauf, in unser Heimatland zurückzukehren, um zu feiern und uns mit Ihnen allen wiederzusehen. Jeder Tag bringt uns diesem lang ersehnten und freudigen Moment näher.",
+                "images": [
+                    {
+                        "src": "/story-images/santorini-1.JPG",
+                        "alt": "Reisen"
+                    },
+                    {
+                        "src": "/story-images/venedig.JPG",
+                        "alt": "Reisen"
+                    },
+                    {
+                        "src": "/story-images/zugspitze.JPG",
+                        "alt": "Reisen"
+                    }
+                ]
+            }
+        ]
+    }
+}

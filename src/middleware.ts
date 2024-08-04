@@ -38,10 +38,20 @@ export function middleware(request: NextRequest) {
             '/vi_blue_logo.png',
             '/background.webp',
             '/background.jpg',
-            '/page_background.jpg'
+            '/page_background.jpg',
+            '/story-images/bogota.JPEG',
+            '/story-images/grado-master.JPG',
+            '/story-images/primera-cita.JPG',
+            '/story-images/santorini-1.JPG',
+            '/story-images/venedig.JPG',
+            '/story-images/casa-vale.JPG',
+            '/story-images/grado-vale.JPG',
+            '/story-images/reencuentro.JPG',
+            '/story-images/santorini2.JPG',
+            '/story-images/zugspitze.JPG'
         ].includes(pathname)
     )
-        return
+        return;
 
     // Check if there is any supported locale in the pathname
     const pathnameIsMissingLocale = i18n.locales.every(

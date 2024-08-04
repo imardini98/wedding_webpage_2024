@@ -9,12 +9,8 @@ const windsong = WindSong({
   weight: "500",
 });
 
-export function OurHistory() {
-  /*  const history = useParallax({
-     opacity: [0, 1],
-     endScroll: 3000,
-   }); */
-  console.log(Intl.DateTimeFormat().resolvedOptions().timeZone)
+export function OurHistory({ dictionary }: { dictionary: any }) {
+
   return (
     <section className="py-16 ">
       <div className="max-w-6xl mx-auto px-4">
@@ -22,13 +18,14 @@ export function OurHistory() {
           className={cn([
             "text-5xl font-bold text-center mb-12",
             windsong.className,
+            "story-title"
           ])}
         >
-          Nuestra Historia
+          {dictionary.title}
         </h2>
 
         <div className="grid grid-cols-1 gap-8">
-          <TimeLine />
+          <TimeLine timeline={dictionary.timeline} />
         </div>
       </div>
     </section>
