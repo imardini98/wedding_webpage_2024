@@ -35,6 +35,10 @@ export function middleware(request: NextRequest) {
             '/favicon.ico',
             '/vi_logo.png',
             '/vi_gold_logo.png',
+            '/vi_blue_logo.png',
+            '/background.webp',
+            '/background.jpg',
+            '/page_background.jpg'
         ].includes(pathname)
     )
         return
