@@ -9,7 +9,7 @@
 
 .custom-bg {
     animation: fadeIn 1s;
-    background-image: url('/page_bakcground.jpg');
+    background-image: url('/bakcground.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }

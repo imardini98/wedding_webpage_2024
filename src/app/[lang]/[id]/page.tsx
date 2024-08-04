@@ -24,9 +24,9 @@ export default async function Page({ params }: { params: { id: string } }) {
     return (
         <div className="flex flex-col justify-center items-center w-full h-screen custom-bg">
             {/*             <ImageLegacy src="/page_background.jpg" alt="description" layout="fill" objectFit="cover" quality={100} />
- */}            <div className="card bg-base-100 w-96 shadow-xl">
+ */}            <div className="card bg-base-100 w-96 shadow-xl pt-[10px]">
                 <div className="flex flex-col justify-center items-center w-full">
-                    <Image src="/vi_blue_logo.png" alt="logo" width={100} height={100} />
+                    <Image src="/vi_gold_logo.png" alt="logo" width={80} height={80} />
                 </div>
                 <div className={cn(["card-body", windsong.className])}>
                     <h2 className="card-title">{guest?.name ?? "Not found"}</h2>
